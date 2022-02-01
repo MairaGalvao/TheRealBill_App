@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "therealbill-6c919",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
