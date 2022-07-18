@@ -92,13 +92,13 @@ label {
   }
 }
 
-p {
+/* p {
   margin: 10px -15px 0px;
   padding: 10px;
 
   font-weight: bold;
   text-align: center;
-}
+} */
 
 .happy-pick,
 .lovers-pick {
@@ -165,7 +165,7 @@ p {
 .boxPic {
   display: flex;
   justify-content: space-around;
-  margin: 10px 50px 300px 50px;
+  margin: 150px 50px 300px 50px;
 }
 
 .img {
@@ -183,4 +183,147 @@ p {
   border-radius: 9999px;
   background-color: #b46d73;
   font-size: 1.25rem;
+}
+
+
+/* New title css */
+
+
+#mainPage{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+ 
+  
+}
+
+.mainTitle{
+
+align-self: center;
+display: flex;
+
+}
+#staticTitle{
+  color:white;
+
+  font-family: Roobert, sans-serif;
+  font-size: 4rem;
+  line-height: 1.03;
+  font-weight: 600;
+}
+
+
+.subTitleMain{
+  display: flex;
+  
+  flex-direction: column;
+}
+.title1{
+  color:#dbfd51;
+
+  font-family: Roobert, sans-serif;
+  font-size: 4rem;
+  line-height: 1.03;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+.textMain{
+  color:rgba(255, 255, 255, 0.5);;
+  font-family: Roobert, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 0.2;
+  display: flex;
+
+}
+
+.mainAbout{
+  background-color: white;
+  height: 440px;
+  width: 300px;
+  border-radius: 40px;
+}
+
+/* button css */
+
+.btnStart{
+  background-color: rgb(33, 30, 30);
+  border-radius: 10px;
+  width: 30%;
+  height: 30px;
+  color: white;
+  margin-top: 40px;
+
+  
+  
+}
+
+
+#non-static-text{
+  text-indent: 10px;
+}
+
+.learnText{
+  margin-right: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mainAbout{
+  align-self: center;
+
+}
+
+.phoeText1{
+  margin-bottom: 0.5rem;
+  font-family: Roobert, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-weight: 600;
+  text-decoration: none;
+
+  
+
+}
+
+.smallText1{
+  color: rgba(0, 0, 0, 0.47);
+}
+
+.textWrap{
+  display: flex;
+    /* align-self: center; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.mainTitle{
+  position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textLeft{
+  word-spacing:5px;
+   margin: 20px 5px 10px;
+  padding: 10px;
+
+  font-weight: bold;
+  text-align: left;
+  width: 400px;
+  height: 200px;
+}
+
+.livingIndexText{
+  display: flex;
 }

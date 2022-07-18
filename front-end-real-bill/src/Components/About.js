@@ -8,90 +8,75 @@ import "aos/dist/aos.css";
 import "../css/about.css";
 
 export function About() {
-  let history = useHistory();
-  useEffect(() => {
-    if (Aos) {
-      Aos.init({});
-    }
-  }, [Aos]);
-  return (
-    <>
-      <Box data-aos="fade-out">
-        <hr class="dividerAbout"></hr>
-        <h1 class="livingIndexTitle">The Living index</h1>
-        <Box class="boxPic">
-          <img class="img" src={pppPic} />
-          <div>
-            <input
-              class="inputBox"
-              type="radio"
-              name="sushi-lunch"
-              id="happy-radio"
-            />
-            <input
-              class="inputBox"
-              type="radio"
-              name="sushi-lunch"
-              id="lovers-radio"
-              checked
-            />
+	let history = useHistory();
+	useEffect(() => {
+		if (Aos) {
+			Aos.init({});
+		}
+	}, [Aos]);
+	return (
+		<>
+			{/* <hr class="dividerAbout"></hr> */}
+			{/* <h1 class="livingIndexTitle">The Living index</h1> */}
 
-            <div class="selector">
-              <label for="happy-radio" class="happy-card">
-                <h1 class="fa fa-check">How it works</h1>
+			{/* <img class="img" src={pppPic} /> */}
 
-                <li>Consider comparing the cost of two countries</li>
-                <li>Choose an Origin City and a desired City</li>
-                <li>
-                  The country will be selected automatically according to the
-                  city chosen
-                </li>
-                <li>Choose the package that suits your lifestyle</li>
-                <li>Ask for The Real Bill</li>
+			<div class="mainTitle" data-aos="fade-out">
+				<div class="subTitleMain">
+					<div class="livingIndexText">
+						<h1 class="title1" id="staticTitle">
+							Living
+						</h1>
+						<h1 class="title1" id="non-static-text">
+							{" "}
+							index
+						</h1>
+					</div>
+					<div class="textMain">
+						<p class="textLeft">
+							{" "}
+							If you want to live cheap, and you can move to any country in the
+							world,
+							<br />
+							compare prices of Big Mac according to the theory of Index Big
+							Mac.
+							<br /> But why not compare the living index?{" "}
+						</p>
+					</div>
+					<button class="btnStart">
+						{" "}
+						<div className="learnText">Learn How</div>
+						{/* <p className="btnText">Learn how</p> */}
+					</button>
+				</div>
 
-                <p>
-                  * Information was collected from
-                  <a href="https://www.numbeo.com/cost-of-living/"> Numbeo </a>
-                </p>
-              </label>
-
-              <label for="lovers-radio" class="lovers-card">
-                <h1 class="fa fa-search">About</h1>
-
-                <li>Purchasing Power Parity</li>
-                <li>Living Cost Index - similar to Big Mac Index</li>
-                <li>Living costs in more than 16.000 cities</li>
-                <li>Hourly and daily wages in the city you selected </li>
-                <li>
-                  Check how much hours and/or days to have access to the package
-                  selected
-                </li>
-
-                <p>*Calculation is according to the minimum wage</p>
-              </label>
-
-              <label for="happy-radio" class="happy-pick">
-                How!
-              </label>
-              <label for="lovers-radio" class="lovers-pick">
-                Info
-              </label>
-              <Link
-                class="start"
-                activeclassname="active"
-                to="livingindex"
-                spy={true}
-                smooth={true}
-                onClick={() => {
-                  history.push("/livingindex");
-                }}
-              >
-                Let's start
-              </Link>
-            </div>
-          </div>
-        </Box>
-      </Box>
-    </>
-  );
+				<div class="mainAbout">
+					<div class="textWrap">
+						<h6 class="phoneText1">
+							Living cost in more than 20.000 cities worldwide.
+						</h6>
+						<div class="smallText1">llllllllllllllllllllllllll</div>
+					</div>
+					<div class="textWrap">
+						<h6 class="phoneText1">
+							Living cost in more than 20.000 cities worldwide.
+						</h6>
+						<div class="smallText1">llllllllllllllllllllllllll</div>
+					</div>
+					<div class="textWrap">
+						<h6 class="phoneText1">
+							Living cost in more than 20.000 cities worldwide.
+						</h6>
+						<div class="smallText1">llllllllllllllllllllllllll</div>
+					</div>
+					<div class="textWrap">
+						<h6 class="phoneText1">
+							Living cost in more than 20.000 cities worldwide.
+						</h6>
+						<div class="smallText1">llllllllllllllllllllllllll</div>
+					</div>
+				</div>
+			</div>
+		</>
+	);
 }
