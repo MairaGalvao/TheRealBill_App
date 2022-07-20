@@ -71,9 +71,7 @@ export function About() {
 
 				<div class="basic-card basic-card-light">
 					<div class="card-content">
-						<span class="card-title">
-							The Real Bill offers the following additions
-						</span>
+						<span class="card-title">The Real Bill offers the following</span>
 						<ul>
 							<li class="card-text">
 								Living cost in more than 20.000 cities worldwide;

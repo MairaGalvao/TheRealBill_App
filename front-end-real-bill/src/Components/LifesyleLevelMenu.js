@@ -12,27 +12,51 @@ import { useDispatch, useSelector } from "react-redux";
 import React, { useState, useRef, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import {
-  resetButtonClicked,
-  getOriginPrices,
-  getDesiredPrices,
+	resetButtonClicked,
+	getOriginPrices,
+	getDesiredPrices,
 } from "../Selector/selector";
 
 import {
-  packagePickedLow,
-  packagePickedMedium,
-  packagePickedHigh,
-  nameCityTyped,
+	packagePickedLow,
+	packagePickedMedium,
+	packagePickedHigh,
+	nameCityTyped,
 } from "../actions/actions";
 
 export function LifestyleLevelMenu() {
-  const [packageMenuOpen, setPackageMenuOpen] = useState(false);
-  const [anchorEl, setAnchorEl] = useState();
+	const [packageMenuOpen, setPackageMenuOpen] = useState(false);
+	const [anchorEl, setAnchorEl] = useState();
 
-  const dispatch = useDispatch();
+	const dispatch = useDispatch();
 
-  return (
-    <>
-      <Button
+	return (
+		<>
+			<label class="select" for="slct" style={{ marginBottom: "30px" }}>
+				<select id="slct" required="required">
+					<option
+						value=""
+						disabled="disabled"
+						style={{ marginBottom: "30px" }}
+						selected="selected"
+					>
+						Choose a lifestyle package
+					</option>
+					<option value="#">Low</option>
+					<option value="#">Medium</option>
+					<option value="#">High</option>
+				</select>
+				<svg>
+					<use></use>
+				</svg>
+			</label>
+
+			<svg class="sprites">
+				<symbol id="select-arrow-down" viewbox="0 0 10 6">
+					<polyline points="1 1 5 5 9 1"></polyline>
+				</symbol>
+			</svg>
+			{/* <Button
         variant="contained"
         className="package-levels"
         color="primary"
@@ -52,7 +76,7 @@ export function LifestyleLevelMenu() {
         Packages
       </Button>
 
-      {/* menu */}
+
 
       <Menu open={packageMenuOpen} anchorEl={anchorEl}>
         <MenuItem
@@ -87,7 +111,7 @@ export function LifestyleLevelMenu() {
           {" "}
           High{" "}
         </MenuItem>
-      </Menu>
-    </>
-  );
+      </Menu> */}
+		</>
+	);
 }

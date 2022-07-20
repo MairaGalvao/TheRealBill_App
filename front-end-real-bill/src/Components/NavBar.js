@@ -21,7 +21,13 @@ export function NavBar() {
 				<Box style={{ display: "flex" }}>
 					<Box
 						className="nameNavBox"
-						style={{ display: "flex", color: "yellow" }}
+						style={{
+							display: "flex",
+							color: "yellow",
+							position: "absolute",
+							left: "0",
+							top: "0",
+						}}
 					>
 						<Typography
 							style={{
