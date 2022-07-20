@@ -163,7 +163,17 @@ export default function LivingIndex() {
 																class="mb-0 mt-4 text-center"
 																style={{ marginTop: "30px" }}
 															>
-																<a href="#0" class="link">
+																<a
+																	href="#"
+																	class="link"
+																	title="Life Style Info"
+																	activeclassname="active"
+																	spy={true}
+																	smooth={true}
+																	onClick={() => {
+																		history.push("/lifestyleinfo");
+																	}}
+																>
 																	Want to know more about the lyfestyle options?
 																</a>
 															</p>
@@ -246,7 +256,17 @@ export default function LivingIndex() {
 																class="mb-0 mt-4 text-center"
 																style={{ marginTop: "30px" }}
 															>
-																<a href="#0" class="link">
+																<a
+																	href="#"
+																	class="link"
+																	title="Life Style Info"
+																	activeclassname="active"
+																	spy={true}
+																	smooth={true}
+																	onClick={() => {
+																		history.push("/lifestyleinfo");
+																	}}
+																>
 																	Want to know more about the lyfestyle options?
 																</a>
 															</p>
