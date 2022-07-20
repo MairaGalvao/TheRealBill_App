@@ -186,9 +186,9 @@ p .fa[class~="angle"]:hover {
   color: #fecb6c;
 }
 .product {
-  height: 500px;
-  width: 600px;
-  background: white;
+  height: 600px;
+  width: 550px;
+  /* background: white; */
   position: relative;
   left: calc(50% - 300px);
   margin-top: calc(50vh - 250px);
@@ -225,7 +225,16 @@ p .fa[class~="angle"]:hover {
 }
 .product .main .quantity {
   margin-top: 10px;
-  color: #333;
+  /* color: #333; */
+  color:white;
+
+}
+.quantity {
+  font-size:large
+}
+p {
+  font-size:large;
+ 
 }
 .product .main h1 {
   font-size: 4.5rem;
@@ -235,7 +244,8 @@ p .fa[class~="angle"]:hover {
   color: #232e3a;
 }
 .product .main h2 {
-  color: #999;
+  /* color: #999; */
+  color: white;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   margin: 0 0;
@@ -283,7 +293,7 @@ p .fa[class~="angle"]:hover {
   float: left;
 }
 .right {
-  float: right;
+  float: left;
 }
 @keyframes bounce {
   50% {
@@ -294,5 +304,9 @@ p .fa[class~="angle"]:hover {
 .resultsMain {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 0px;
+}
+
+h4{
+  color: white;
 }
