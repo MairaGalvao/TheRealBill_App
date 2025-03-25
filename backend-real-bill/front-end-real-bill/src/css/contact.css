@@ -1,0 +1,122 @@
+#getInTouch {
+  font-size: 30px;
+  font-family: Poppins sans-serif;
+}
+
+#keepInTouch {
+  font-size: 20px;
+  font-family: Fira Sans Condensed, sans-serif;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 150px;
+  margin-top: auto;
+}
+
+.icon_wrapper {
+  margin: 25px auto;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 0;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+.message {
+  float: none;
+  width: 100%;
+  height: 200%;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+#message_input #email_input {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.name {
+  float: left;
+  width: 100%;
+  height: 50%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 15px 25px 15px 25px;
+  margin: 10px 142px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #f2f3eb;
+}
+
+#contactBox {
+  display: flex;
+  padding-bottom: 60px;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+form {
+  padding: 25.5px;
+  margin: 0 0;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}

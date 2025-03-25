@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/TheRealBill_App-main.iml" filepath="$PROJECT_DIR$/.idea/TheRealBill_App-main.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/backend-real-bill.iml" filepath="$PROJECT_DIR$/.idea/backend-real-bill.iml" />
->>>>>>> c075aa7 (Prepare backend for deployment)
     </modules>
   </component>
 </project>

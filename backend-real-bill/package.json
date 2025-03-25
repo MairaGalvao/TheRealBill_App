@@ -1,4 +1,43 @@
 {
+<<<<<<< HEAD
+  "name": "the-real-bill",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node app.js",
+    "dev": "concurrently \"npm run server\" \"npm start\""
+  },
+  "proxy": "https://the-real-bill.herokuapp.com",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+=======
   "name": "backend-real-bill",
   "version": "0.0.0",
   "private": true,
@@ -19,3 +58,4 @@
     "nodemon": "^2.0.7"
   }
 }
+>>>>>>> c075aa7 (Prepare backend for deployment)

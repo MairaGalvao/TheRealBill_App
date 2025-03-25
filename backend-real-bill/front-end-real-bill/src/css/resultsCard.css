@@ -1,0 +1,312 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+#mainCardResults {
+  width: 500px;
+  height: 654px;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 88px 0 rgba(0, 0, 0, 0.1607843137);
+  overflow: hidden;
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#mainCardResults #mainCardResults__thumb {
+  position: relative;
+  height: 281px;
+
+  box-shadow: 0px 0px 130px 0 rgba(0, 0, 0, 0.38);
+}
+#mainCardResults #mainCardResults__thumb #close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  background: #000;
+  color: var(--white);
+  text-align: center;
+  line-height: 36px;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 200ms ease;
+}
+#mainCardResults #mainCardResults__thumb #close-modal:hover {
+  background: transparent;
+  color: var(--black);
+}
+#mainCardResults #mainCardResults__thumb h3 {
+  text-align: center;
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  color: var(--white);
+  font-family: var(--headlinesFont);
+  font-size: 25px;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+  padding: 2.4rem 0 0;
+}
+#mainCardResults #mainCardResults__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+#mainCardResults #mainCardResults__content {
+  flex: 1;
+  padding: 13px 1em 1em;
+}
+#mainCardResults #mainCardResults__content .content__header .row-wrapper {
+  display: flex;
+  padding: 0.55em 0 0.3em;
+  border-bottom: 1px solid #d8d8d8;
+}
+#mainCardResults
+  #mainCardResults__content
+  .content__header
+  .row-wrapper
+  .title {
+  font-family: var(--headlinesFont);
+  font-weight: 600;
+}
+#mainCardResults #mainCardResults__content .content__header .time-cost-details {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  padding: 1.4em 0 1em;
+  margin: 0;
+  justify-content: space-between;
+}
+#mainCardResults
+  #mainCardResults__content
+  .content__header
+  .time-cost-details
+  .time-cost-details-item {
+  flex: 1;
+}
+#mainCardResults
+  #mainCardResults__content
+  .content__header
+  .time-cost-details
+  .time-cost-details-item
+  i {
+  font-size: 10px;
+}
+#mainCardResults
+  #mainCardResults__content
+  .content__header
+  .time-cost-details
+  .time-cost-details-item
+  .value {
+  color: #ff4f87;
+  margin-left: 0.35em;
+  vertical-align: bottom;
+  font-size: 20px;
+  font-weight: 600;
+}
+#mainCardResults
+  #mainCardResults__content
+  .content__header
+  .time-cost-details
+  .time-cost-details-item
+  .title {
+  display: block;
+  margin-top: -4px;
+
+  font-family: var(--headlinesFont);
+  font-size: 18px;
+  font-weight: 300;
+}
+#mainCardResults #mainCardResults__content .description {
+  margin: 0.3em 0 1.8em;
+}
+#mainCardResults #mainCardResults__content .content__footer {
+  text-align: center;
+  margin: 0 3rem;
+}
+#mainCardResults #mainCardResults__content .content__footer a {
+  font-family: var(--headlinesFont);
+  display: inline-block;
+  background: var(--wildWatermelon);
+  padding: 0.45em 1em;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 17px;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+#mainCardResults #mainCardResults__content .content__footer a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 34px 0 rgba(255, 79, 135, 0.32);
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+/* body {
+  background: linear-gradient(
+      to top,
+      rgba(100, 50, 50, 0.6),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(https://www.atrafloor.com/app/uploads/2017/01/camo-camouflage-pattern-flooring-grey.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+} */
+a {
+  text-decoration: none;
+  color: #39f;
+}
+#qt {
+  color: #999;
+}
+p .fa[class~="angle"] {
+  font-size: 1.3rem;
+  position: relative;
+  top: 0.15rem;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #d8d8d8;
+  transition: all 0.5s;
+}
+p .fa[class~="angle"]:hover {
+  color: #47be73;
+}
+.yellow {
+  color: #fecb6c;
+}
+.product {
+  height: 600px;
+  width: 550px;
+  /* background: white; */
+  position: relative;
+  left: calc(50% - 300px);
+  margin-top: calc(50vh - 250px);
+}
+.product.action {
+  animation: bounce 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}
+.product .header {
+  height: 40px;
+  position: relative;
+  padding: 20px;
+}
+.product .header .back {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-top: 30px solid #47be73;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #47be73;
+  border-right: 30px solid transparent;
+}
+.product .header .back :before {
+  content: "\f3d1";
+  position: absolute;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: -22px;
+  left: -22px;
+}
+.product .main {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.product .main .quantity {
+  margin-top: 10px;
+  /* color: #333; */
+  color:white;
+
+}
+.quantity {
+  font-size:large
+}
+p {
+  font-size:large;
+ 
+}
+.product .main h1 {
+  font-size: 4.5rem;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 0 -5px -15px;
+  color: #232e3a;
+}
+.product .main h2 {
+  /* color: #999; */
+  color: white;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 0 0;
+  text-transform: uppercase;
+}
+.product .main h3 {
+  color: #232e3a;
+  margin: 0;
+}
+.product .main img {
+  max-width: 90%;
+  margin-left: 25px;
+}
+.product .main .left,
+.product .main .right {
+  padding: 0 calc(5% - 1px);
+}
+.product .main .right {
+  color: #999;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+.product .footer {
+  bottom: 0;
+  padding: 5px 40px 5px 0;
+  width: calc(90% - 40px);
+  left: 10%;
+  border-top: 1px solid #ccc;
+}
+.product .footer .left p:before {
+  /* content: "Total Cost"; */
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: black;
+  position: absolute;
+  top: -12px;
+  width: 200%;
+}
+.product .footer p {
+  color: #47be73;
+  position: relative;
+  font-size: 1.2rem;
+}
+.left {
+  float: left;
+}
+.right {
+  float: left;
+}
+@keyframes bounce {
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.resultsMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0px;
+}
+
+h4{
+  color: white;
+}
